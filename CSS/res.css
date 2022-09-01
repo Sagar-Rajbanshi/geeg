@@ -1,0 +1,124 @@
+/* @media (max-width:425px){
+    html{
+        font-size: 50%;
+    }
+} */
+@media (max-width:425px) {
+   
+    .tollfree{
+        width: 100%;
+    }
+    .first-header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 8rem;
+    }
+    .social-media-icons{
+        margin-top: 2rem;
+    }
+    .slider_text {
+        font-size: 40px!important;
+      }
+
+}
+@media (max-width:768px) {
+    .i-font{
+        font-size: 3rem;
+    }
+    .menu-icons{
+        display: block;
+    }
+    .nav-bar{
+    align-items: flex-start;
+
+    }
+    .nav-bar>ul{
+        padding-top: 4rem;
+        flex-direction: column;
+        display: none;
+        overflow: auto;
+    }    
+    .nav-bar>ul>li{
+        margin: 3rem;
+        /* text-align: center; */
+    }
+    .nav-bar>ul>li>a{
+        font-size: 3rem;
+    }
+    .openMenu{
+        display: block;
+    }
+    .logo{
+        display: block;
+        font-size: 2.8rem;
+        color: #fffbfe;
+        font-family: 'Pacifico', cursive;
+    }
+    .fixed + .doNotHideText{
+        padding: 3.8rem;
+    }
+    .cart-container{
+        flex-direction: column;
+    }
+    .card:not(:last-child){
+        margin-right: 0rem;
+    }
+    .black-band{
+        flex-direction: column;
+        
+    }
+    .black-band>div>h3{
+        text-align: center; 
+    }
+    .black-band>div>p{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .black-band>div{
+        padding: 3rem 0 2rem;
+        width: auto;
+    }
+    .black-band>button{
+        margin-bottom: 3rem;
+    }
+    .blog>div{
+        flex-direction: column;
+    }
+    .blog>div>.blog-box:not(:last-child) {
+        margin-right: 0rem;
+    }
+    
+.contact form {
+    width: 90%;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+}
+    .firstFill{
+        flex-direction: column;
+    }
+    .firstL{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .secL{
+        width: 100%;
+    }
+}
+
+@media (max-width:1158px) {
+    .main>p{
+        margin-bottom: 9rem;
+        font-size: 3rem;
+    }
+    .main-section{
+        flex-direction: column;
+        /* justify-content: space-around; */
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .main-section>button:not(:last-child){
+        margin-bottom: 5rem;
+    }
+}
